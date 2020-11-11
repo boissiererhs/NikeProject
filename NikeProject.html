@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.contianer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.faded {
+   opacity : 0.5;
+}
+
+
+
+#Nike {
+  height:50px;
+  width:50px;
+  postion:relative;
+  left:55px;
+}
+
+.shoe {
+  height:150px;
+  width:300px;
+}
+.location {
+  height:20px;
+  width: 20px;
+}
+
+.ad {
+  color:green;
+   border: 0px;
+   height:20px;
+  border-radius: 5px;
+}
+
+.wid {
+  color:green;
+  border: 0px;
+  height:20px;
+  border-radius: 5px;
+}
+
+#description {
+  
+  
+}
+#time {
+ position: relative;
+ left: 500px;
+ opacity:0.5;
+
+
+}
+span.same {
+display: inline-block;
+}
+
+span.logo {
+  display: inline-block;
+}
+
+#nike {
+ position: relative;
+ left: 10px;
+}
+</style>
+</head>
+<body>
+
+<div id="container">
+  <article id="card">
+    <header>
+     <img id="Nike" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/nike-512.png" class="logo">
+      
+      <span id="nike" class="logo"><h1>Nike</h1></span>
+   
+    </header>
+    <img src="https://i.ebayimg.com/images/g/mkkAAOSwbwFe1Woj/s-l300.png" class="shoe">
+    <section>
+     
+      <div id="description">
+    <span id="retail" class="same">
+  <h3 class="retails">Retail</h3>
+  </span>
+        <span id="time" class="same">2d ago</span>
+        
+      </div>
+      
+      <div id="location">
+        <img src="https://image.flaticon.com/icons/svg/64/64113.svg" class="location" alt="">
+        
+        <span class="faded">North America</span>
+      </div>
+      
+      <div id="tags">
+        <ul>
+          <button class="ad"><b>Advertising</b></button>
+          <button class="wid"><b>Widget</b></button>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <p>Description</p>
+      <p class="faded">Nike created a new widget for their new website to promote th lateset footware releases...</p>
+    </footer>
+  </article>
+</div>
+ 
+
+</body>
+</html>
